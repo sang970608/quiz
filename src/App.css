@@ -1,0 +1,147 @@
+*{
+  list-style: none;
+  text-decoration: none;
+}
+.body{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.subHead{
+  background: orange;
+  text-align: center;
+  color: white;
+  width: 60%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold; 
+}
+.mainHead{
+  position: relative;
+  left: 50%;
+  transform: translateX(-28%);
+  margin : 6% 0;
+  display: flex;
+}
+.o{
+  border: 8px solid blue;
+  border-radius: 20px;
+  color: blue;
+  width: 60px;
+  height: 60px;
+  font-size: 40px; 
+  font-weight: bolder;
+  text-align: center;
+  transform: rotate(-30deg);
+}
+.x{
+  border: 8px solid orange;
+  border-radius: 20px;
+  color: orange;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  transform: rotate(10deg);
+}
+.q{
+  background: rgb(25, 25, 129);
+  border-radius: 20px;
+  color: white;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  transform: rotate(-10deg);
+}
+.z{
+  background: blue;
+  border-radius: 20px;
+  color: white;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  transform: rotate(5deg);
+}
+.head{
+  color: yellow;
+  font-weight: normal;
+}
+input[type="radio"]{
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+input:checked + .correct{
+  outline: 3px solid blue;
+}
+input:checked + .incorrect{
+  outline: 3px solid red;
+}
+.quiz{
+  font-weight: bold;
+  width: 400px;
+  text-align: center;
+  background: linear-gradient(white,rgb(184, 180, 180));
+}
+.correct{
+  display: inline-block;
+  color: blue;
+  font-weight: bold;
+  font-size: 200px;
+  text-shadow: 10px 10px 10px rgb(115, 247, 247);
+  cursor: pointer;
+}
+.line{
+  display: inline-block;
+  height: 200px;
+  background-color: black;
+  width: 3px;
+  margin: 0 5%;
+}
+.incorrect{
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+  font-size: 200px;  
+  text-shadow: 10px 10px 10px rgb(252, 145, 163);
+  cursor: pointer;
+}
+.footer{
+  text-align: center;
+  width: 410px;
+}
+.enter{
+  display: flex;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 20px;
+  background: linear-gradient(rgb(206, 200, 200),rgb(247, 245, 245));
+  width: 330px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.enterBtn{
+  position: relative;
+  left: 25%;
+}
+.arrow{
+  width: 50px;
+  margin: 0 10%;
+  position: relative;
+  left: 30%;
+}
+.ques{
+  border: 3px solid black;
+}
